@@ -17,7 +17,7 @@
 
             //Входные данные
             Console.WriteLine("Введите началную сумму");
-            double x = Int32.Parse(Console.ReadLine());
+            double x = Int32.Parse( Console.ReadLine());
             Console.WriteLine("Введите процентную ставку");
             double p = Double.Parse(Console.ReadLine());
             Console.WriteLine("Введите сумму, которую должна привышать начальная сумма");
